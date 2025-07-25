@@ -45,7 +45,9 @@
 .margin-top-20 {
   margin-top: 20px;
 }
-
+.margin-top-25{
+    margin-top: 25px;
+}
 .margin-top-50px {
   margin-top: 50px;
 }
@@ -266,7 +268,7 @@ input[type="email"] {
     font-size: 1rem;
     color: black;
     padding: 20px;
-    width: 30vw;
+    width: 40%;
 }
 input[type="button"] {
     background-color: #e95a08;
@@ -274,6 +276,35 @@ input[type="button"] {
     color:white;
     padding: 20px 50px;
     font-weight: 600;
+}
+
+/* footer-container */
+.footer-container{
+    margin-bottom: 100px;
+}
+.width-25{
+    width: 25%;
+}
+.icon-text{
+    /* width: 40%; */
+    padding-right: 100px;
+}
+
+.foot-icon{
+    gap: 20px;
+    justify-content: left;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+.foot-list-icon{
+    display: flex;
+    justify-items: flex-end;
+    align-items: flex-start;
+}
+
+.logo{
+    width: 140px;
 }
 
 .Subscribe-section{
@@ -315,5 +346,11 @@ input[type="button"] {
   .fontstylemini {
     font-size: 1rem;
     font-weight: 600;
+  }
+  .footer-container{
+    flex-direction: column;
+  }
+  .s-width{
+    width: 100%;
   }
 }
