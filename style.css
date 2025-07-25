@@ -20,14 +20,14 @@
 }
 
 /* common styles */
-.text-underline{
-    text-decoration: underline;
+.text-underline {
+  text-decoration: underline;
 }
-.width{
-    width: 80%;
+.width {
+  width: 80%;
 }
-.width-70{
-    width: 70%;
+.width-70 {
+  width: 70%;
 }
 
 .center-margin {
@@ -50,11 +50,11 @@
   margin-top: 50px;
 }
 
-.section-margin{
+.section-margin {
   margin-top: 120px;
 }
-.text-center{
-    text-align: center;
+.text-center {
+  text-align: center;
 }
 /* navbar */
 
@@ -112,10 +112,10 @@
 }
 
 /* cart */
-.cart-container{
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 20px;
+.cart-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
 }
 
 .carts {
@@ -133,14 +133,12 @@
   margin-top: 5px;
 }
 
-
-
-.cart-btn{
-    background-color: #e95a08;
-    font-size: 1rem;
-    font-weight: 600;
-    color: white;
-    padding: 20px;
+.cart-btn {
+  background-color: #e95a08;
+  font-size: 1rem;
+  font-weight: 600;
+  color: white;
+  padding: 20px;
 }
 
 .cart-img img {
@@ -149,108 +147,138 @@
 
 /* plant-lover */
 
-.lover-left{
-    flex: 1;
-    padding: 120px;
+.lover-left {
+  flex: 1;
+  padding: 120px;
 }
 
-
-
-#lover-store{
-   width: 100%;
+#lover-store {
+  width: 100%;
 }
 
-.lover-right{
-    flex: 1;
+.lover-right {
+  flex: 1;
 }
-.lover-heading{
-    font-size: 3.125rem;
-    font-weight: 700;
-}
-
-.bullets{
-    font-size: 1.375rem;
-    font-weight: 400;
+.lover-heading {
+  font-size: 3.125rem;
+  font-weight: 700;
 }
 
-.bullets ul{
-    padding: 20px;
-    list-style: disc ;
-    margin-top: 20px;
+.bullets {
+  font-size: 1.375rem;
+  font-weight: 400;
+}
+
+.bullets ul {
+  padding: 20px;
+  list-style: disc;
+  margin-top: 20px;
 }
 
 /* deals-container */
 
-.deals-container{
-
+.deals-container {
 }
-.deal-top{
-    text-align: center;
+.deal-top {
+  text-align: center;
 }
 
-.deal-head{
-    font-size: 3.125rem;
+.deal-head {
+  font-size: 3.125rem;
+  font-weight: 700;
+}
+
+.imgs-box {
+  border-radius: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.deals-down {
+  gap: 30px;
+}
+
+.Bloom {
+  background-image: url("assets/deal-bloom.png");
+  background-size: cover;
+  width: 100%;
+  background-repeat: no-repeat;
+  font-weight: 600;
+  color: white;
+}
+
+.Zabo {
+  background-image: url("assets/deal-zabo.png");
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 40vh;
+  font-size: 3.125rem;
+  font-weight: 700;
+  color: white;
+}
+.Ana {
+  background-image: url("assets/deal-ana.png");
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  font-weight: 600;
+}
+.big-par {
+  font-size: 1.75rem;
+  font-weight: 500;
+}
+.head-deal {
+  font-size: 1.375rem;
+  font-weight: 700;
+  color: white;
+}
+
+.Bloom,
+.Ana p {
+  font-weight: 600;
+  font-size: 1rem;
+}
+/* Subscribe-section */
+.Subscribe-section {
+  background-image: url("assets/news-letter-bg.png");
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.sub-head{
+    color: white;
+    font-size: 2.5rem;
     font-weight: 700;
 }
-
-.imgs-box{
-    border-radius: 14px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-
+.form-section {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.deals-down{
-    gap: 30px;
-} 
-
-
-
-.Bloom{
-    background-image: url("assets/deal-bloom.png");
-    background-size: cover;
-    width: 100%;
-    background-repeat: no-repeat;
-    font-weight: 600;
-    color: white;
-}
-
-.Zabo{
-    background-image: url("assets/deal-zabo.png");
-    width: 100%;
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 40vh;
-    font-size: 3.125rem;
-    font-weight: 700;
-    color: white;
-}
-.Ana{
-    background-image: url("assets/deal-ana.png");
-    width: 100%;
-    background-size: cover;
-    background-repeat: no-repeat;  
-    color: white;  
-    font-weight: 600;
-    
-}
-.big-par{
-    font-size: 1.75rem;
-    font-weight: 500;
-    
-}
-.head-deal{
-    font-size: 1.375rem;
-    font-weight: 700;
-    color: white;
-}
-
-.Bloom, .Ana p{
-    font-weight: 600;
+input[type="email"] {
+    background-color: white;
     font-size: 1rem;
-    
+    color: black;
+    padding: 20px;
+    width: 30vw;
+}
+input[type="button"] {
+    background-color: #e95a08;
+    font-size: 1rem;
+    color:white;
+    padding: 20px 50px;
+    font-weight: 600;
+}
+
+.Subscribe-section{
+    padding-top: 200px;
+    padding-bottom: 200px;
 }
 
 @media only screen and (max-width: 576px) {
@@ -258,33 +286,34 @@
     display: none;
   }
 
-  .plant-lover, .hero-section {
+  .plant-lover,
+  .hero-section {
     flex-direction: column;
   }
-  .cart-container{
+  .cart-container {
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
   }
-  .deals-down{
+  .deals-down {
     grid-template-columns: repeat(1, 1fr);
   }
-  .Bloom, .Zabo, .Ana{
+  .Bloom,
+  .Zabo,
+  .Ana {
     height: 20vh;
   }
 
-  .lover-left{
+  .lover-left {
     padding: 20px;
   }
-  
-  .fontstylehead{
+
+  .fontstylehead {
     font-size: 1.25rem;
     font-weight: 700;
   }
 
-  .fontstylemini{
+  .fontstylemini {
     font-size: 1rem;
     font-weight: 600;
   }
-
-
 }
