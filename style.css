@@ -317,9 +317,11 @@ input[type="button"] {
     display: none;
   }
 
-  .plant-lover,
-  .hero-section {
+  .plant-lover{
     flex-direction: column;
+  }
+  .hero-section{
+    flex-direction: column-reverse;
   }
   .cart-container {
     grid-template-columns: repeat(2, 1fr);
